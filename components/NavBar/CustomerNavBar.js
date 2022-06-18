@@ -4,8 +4,8 @@ function CustomerNavBar() {
   return (
     <div>
       <nav className="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-        <a className="navbar-brand" href="/home">
-          Evms
+        <a style={{fontFamily:"cursive",paddingRight:"50px"}}  className="navbar-brand" href="/home">
+          eVMS
         </a>
 
         <ul className="navbar-nav">

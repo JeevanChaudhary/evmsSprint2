@@ -1,5 +1,5 @@
 import React from "react";
-import ServiceNavBar from "./NavBar/NavBar";
+import ServiceNavBar from "./NavBar/ServiceNavBar";
 
 function Service() {
   return (

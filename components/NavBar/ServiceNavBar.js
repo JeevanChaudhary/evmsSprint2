@@ -14,6 +14,13 @@ function ServiceNavBar() {
               All Service
             </a>
           </li>
+
+          
+          <li className="nav-item">
+            <a className="nav-link" href="serviceRequest/find/all">
+              Status
+            </a>
+          </li>
             
 
         </ul>

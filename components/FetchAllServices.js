@@ -32,7 +32,7 @@ function FetchAllServices() {
                 {
                     services.map((p, index) =>
                         <div key={index} className="col-sm-3">
-                            {/* <Link to={`/product/get/${p.productId}`}> */}
+                            <Link to={`/servicerequest/get/${p.serviceId}`}>
                             <div className="card" style={{ width: "200px", height: "250px" }}>
                                 <img className="card-img-top" src={img1} alt="Card image" />
                                 <div className="card-body">
@@ -40,7 +40,7 @@ function FetchAllServices() {
                                     <p className="card-text">{p.price}</p>
                                 </div>
                             </div>
-                            {/* </Link> */}
+                            </Link>
                         </div>
                     )
                 }
